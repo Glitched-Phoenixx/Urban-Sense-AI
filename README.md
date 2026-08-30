@@ -1,4 +1,4 @@
-# Pothole Detector V1
+# Urban Sense AI
 YOLOv8 baseed pothole detector
 
 ## How to use -
