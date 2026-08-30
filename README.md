@@ -1,5 +1,5 @@
 # Urban Sense AI
-YOLOv8 baseed pothole detector
+YOLOv8 baseed detector
 
 ## How to use -
 1) Clone the repo
