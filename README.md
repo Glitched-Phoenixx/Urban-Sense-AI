@@ -6,7 +6,7 @@ YOLOv8 baseed detector
 2) Open the folder in cmd
 
 ### For Pothole detector-
-1) paste the following command -    python yolo_pothole_detector.py --detect --weights runs/detect/pothole_yolov8/weights/best.pt --image road.jpg
+1) paste the following command -    python cli.py  --image road.jpg
 2) replace --image road.jpg to --webcam to get live feed
 
 ### For CrowdnTraffic detector-
