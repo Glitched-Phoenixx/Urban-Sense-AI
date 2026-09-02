@@ -71,7 +71,7 @@ def process_video(detector, video_path, output_path):
     print(f"Annotated video saved to: {output_path}")
 
 def process_webcam(detector):
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
         raise RuntimeError("Could not open WebCam.")
