@@ -18,5 +18,12 @@ YOLOv8 baseed detector
 6) in Cmd run - python run.py csrnet --source test.jpg --weights weights/csrnet_shanghaiA.pth --save
 7) !!! For now it only checks on video footage and image, live webcam is still unclear
 
-### For Accident detector (inaccuracies still exist) -
-1)to use webcam use - python detect_accidents.py --weights "runs/detect/accident_model_5/weights/best.pt" --source 0 --display
+### For Accident detector -
+1) Many factors are added to increase accuracy, still inaccuracies exist in some cases.
+2) In cmd paste - python trajectory_accident_detector.py --source your_test_video.mp4 --detector-weights best.pt --display.
+3) It stores the alert footage seperately in accident_alerts folder and maintain a csv file.
+4) Havent explored webcam option, so will update later.
+
+
+**Sample footage and images added to easily check
+
