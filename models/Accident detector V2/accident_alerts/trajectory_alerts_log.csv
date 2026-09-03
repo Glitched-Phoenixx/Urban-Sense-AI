@@ -1,0 +1,2 @@
+timestamp,frame_number,track_id,anomaly_score,direction_change_deg,deceleration_frac,size_change_frac,max_iou,classifier_confirmed
+2026-09-04_03-21-09,190,8,0.605,64.5,0.455,0.344,0.000,n/a
