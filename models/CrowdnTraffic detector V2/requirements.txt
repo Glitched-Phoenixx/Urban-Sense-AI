@@ -1,0 +1,7 @@
+ultralytics>=8.3.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+
+# CSRNet (density heatmap engine)
+torch>=2.2.0
+torchvision>=0.17.0
