@@ -6,8 +6,9 @@ YOLOv8 baseed detector
 2) Open the folder in cmd
 
 ### For Pothole detector-
-1) paste the following command -    python cli.py  --image road.jpg
-2) replace --image road.jpg to --webcam to get live feed
+1) paste the following command -   python cli.py --webcam --lat 20.2961 --lon 85.8245
+2) replace --webcam to --video footage.mp4 to get video output
+3) To upload at server python alert_uploader.py --server-url https://your-server.com/api/alerts --dry-run
 
 ### For CrowdnTraffic detector-
 1) upgraded for crowd based heat density
